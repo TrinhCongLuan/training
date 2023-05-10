@@ -46,3 +46,6 @@ def forecast_temperature(temps):
     predict_temp_hour = 0.5 * (even_idx_temps + odd_idx_temps)
 
     return np.rint(predict_temp_hour).astype(int).tolist()
+
+
+# multiplicative model in time series.
